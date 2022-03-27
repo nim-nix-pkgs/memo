@@ -11,6 +11,7 @@
   inputs.src-memo-master.ref   = "refs/heads/master";
   inputs.src-memo-master.owner = "andreaferretti";
   inputs.src-memo-master.repo  = "memo";
+  inputs.src-memo-master.dir   = "";
   inputs.src-memo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

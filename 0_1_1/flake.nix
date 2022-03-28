@@ -11,7 +11,6 @@
   inputs.src-memo-0_1_1.ref   = "refs/tags/0.1.1";
   inputs.src-memo-0_1_1.owner = "andreaferretti";
   inputs.src-memo-0_1_1.repo  = "memo";
-  inputs.src-memo-0_1_1.dir   = "";
   inputs.src-memo-0_1_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
